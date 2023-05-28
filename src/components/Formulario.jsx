@@ -22,9 +22,11 @@ export const Formulario = () => {
 return (
     <Form onSubmit={handleSubmit}>
         {alerta && <Alert variant="danger" className="text-center">{alerta}</Alert>}
-        <Row className="bg-danger">
+        <Row>
             <Col md={6} className='w-100'>
                         <Form.Group htmlFor="nombre" className="my-3">
+                        <Form.Label htmlFor="categoria">Nombre De Bebida</Form.Label>
+
                             <Form.Control 
                                 type="text"
                                 placeholder="Ej: Tequila, Vodka..."

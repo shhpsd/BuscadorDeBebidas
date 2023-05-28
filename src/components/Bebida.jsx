@@ -4,7 +4,6 @@ import useBebidas from '../hooks/useBebidas'
 export const Bebida = ({bebida}) => {
     const {handleModalClick, handleBebidaIdClick} = useBebidas()
   return (
-
     <Col md={6} lg={3}>
         <Card className='mb-4'>
             <Card.Img variant='top'
